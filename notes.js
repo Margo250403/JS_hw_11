@@ -5,15 +5,15 @@ const notes = [{
     description: "Toxic effect of unspecified substance, accidental (unintentional), initial encounter",
     date: "7/1/2021",
     isPopular: true
-}, 
+},
 {
     id: 2,
     title: "Fans",
     preview: "Sleep disorder not due to a sub or known physiol cond, unsp",
     description: "Sleep disorder not due to a substance or known physiological condition, unspecified",
     date: "3/23/2022",
-    isPopular: true 
-}, 
+    isPopular: true
+},
 {
     id: 3,
     title: "Zorn's Lemma",
@@ -21,7 +21,7 @@ const notes = [{
     description: "Poisoning by cocaine, assault, initial encounter",
     date: "3/12/2022",
     isPopular: true
-}, 
+},
 {
     id: 4,
     title: "Any Day Now",
@@ -29,7 +29,7 @@ const notes = [{
     description: "Strain of other specified muscles, fascia and tendons at wrist and hand level, left hand, sequela",
     date: "8/10/2021",
     isPopular: false
-}, 
+},
 {
     id: 5,
     title: "Will Penny",
@@ -37,7 +37,7 @@ const notes = [{
     description: "Pregnancy with inconclusive fetal viability, fetus 3",
     date: "8/14/2021",
     isPopular: false
-}, 
+},
 {
     id: 6,
     title: "And Soon the Darkness",
@@ -45,15 +45,15 @@ const notes = [{
     description: "Supervision of elderly primigravida and multigravida",
     date: "10/21/2021",
     isPopular: false
-}, 
+},
 {
-    i: 7,
+    id: 7,
     title: "Synchromy",
     preview: "Toxic effect of venom of snake, accidental, sequela",
     description: "Toxic effect of venom of other snake, accidental (unintentional), sequela",
     date: "2/23/2022",
     isPopular: false
-}, 
+},
 {
     id: 8,
     title: "Girl From Nowhere, The",
@@ -61,7 +61,7 @@ const notes = [{
     description: "Other dystrophies primarily involving the sensory retina",
     date: "9/21/2021",
     isPopular: true
-}, 
+},
 {
     id: 9,
     title: "Is It Easy to be Young?",
@@ -69,7 +69,7 @@ const notes = [{
     description: "Bitten by other hoof stock",
     date: "8/16/2021",
     isPopular: false
-}, 
+},
 {
     id: 10,
     title: "Case of You, A",
@@ -82,7 +82,7 @@ const notes = [{
     id: 11,
     title: "Roll Bounce",
     preview: "Encounter for antineoplastic chemotherapy and immunotherapy",
-    descrption: "Encounter for antineoplastic chemotherapy and immunotherapy",
+    description: "Encounter for antineoplastic chemotherapy and immunotherapy",
     date: "8/16/2021",
     isPopular: false
 },
@@ -93,7 +93,7 @@ const notes = [{
     description: "Congenital diverticulum of bladder",
     date: "11/6/2021",
     isPopular: true
-}, 
+},
 {
     id: 13,
     title: "August Mordum's Underground",
@@ -101,7 +101,7 @@ const notes = [{
     description: "Occlusion and stenosis of bilateral carotid arteries",
     date: "10/30/2021",
     isPopular: true
-}, 
+},
 {
     id: 14,
     title: "Top Secret!",
@@ -109,7 +109,7 @@ const notes = [{
     description: "Other contact with crocodile, sequela",
     date: "6/27/2021",
     isPopular: false
-}, 
+},
 {
     id: 15,
     title: "Occupant",
@@ -117,12 +117,12 @@ const notes = [{
     description: "Other calcification of muscle, left upper arm",
     date: "6/17/2021",
     isPopular: false
-}, 
+},
 {
     id: 16,
     title: "Lady in Cement",
     preview: "2-part nondisp fx of surg nk of r humer, 7thK",
     description: "2-part nondisplaced fracture of surgical neck of right humerus, subsequent encounter for fracture with nonunion",
     date: "2/18/2022",
-    isPopular: true 
+    isPopular: true
 }]

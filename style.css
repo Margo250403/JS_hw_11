@@ -1,21 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap");
+
 body,
 html {
-  font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
-
-/* .notes{
+.notes {
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    gap: 80px;
-} */
-.notes-block{
+    flex-wrap: wrap;
+}
+.notes-block {
     width: 320px;
     border: 2px solid black;
     margin: 50px auto;
 }
-.notes-title{
+.notes-title {
     font-size: 16px;
     line-height: 1.2;
     width: 150px;
@@ -26,7 +24,7 @@ html {
     border: 2px solid black;
     background-color: white;
 }
-.notes-date{
+.notes-date {
     font-size: 16px;
     width: 110px;
     padding: 5px;
@@ -34,7 +32,7 @@ html {
     border: 2px solid black;
     background-color: white;
 }
-.notes-preview{
+.notes-preview {
     font-size: 16px;
     text-align: center;
     border: 2px solid black;
@@ -42,7 +40,7 @@ html {
     margin: 15px 10px 7px 16px;
     padding: 17px 7px;
 }
-.notes-more{
+.notes-more {
     display: block;
     font-size: 16px;
     width: 110px;
@@ -54,13 +52,13 @@ html {
     background-color: white;
     margin-left: auto;
 }
-.notes-full{
+.notes-full {
     font-size: 16px;
     text-align: center;
     border: 2px solid black;
-    width: 250px;
+    width: 320px;
     margin: 15px 10px 7px 40px;
-    padding: 50px 80px;
+    padding: 20px 40px;
 }
 .pop_up {
     width: 100%;
@@ -68,14 +66,10 @@ html {
     position: fixed;
     left: 0;
     top: 0;
-    /* display: none; */
     background-color: rgba(0, 0, 0, .7);
     z-index: 2;
     transition: .4s ease-in-out;
 }
-/* .show{
-    display: block;
-} */
 .pop_up_container {
     display: flex;
     width: 100%;
