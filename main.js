@@ -46,9 +46,9 @@
 
                 noteBlock.innerHTML = createHTMLnotes(note);
 
-                noteBlock.addEventListener('click', () => {
-                    showPopUp(note)
-                })
+                noteBlock.querySelector('.notes-more').addEventListener('click', () => {
+                        showPopUp(note)
+                    })
 
                 return noteBlock;
             });
